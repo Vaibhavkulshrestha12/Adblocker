@@ -1,0 +1,12 @@
+{
+    "name" : "Alpha Adblocker",
+    "version" : "1.0",
+    "description" : "Adblocker chrome extension",
+    "permissions" : ["webRequest","webRequestBlocking","<all_urls>"],
+    "background" : {
+        "scripts" : ["main.js"]
+    },
+   
+    "manifest_version" : 1
+
+}
